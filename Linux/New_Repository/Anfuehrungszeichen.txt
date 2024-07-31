@@ -1,0 +1,4 @@
+Anfuehrungszeichen “ “
+Eckige Klammern []
+Geschweifte Klammern {}
+Winkelklammern <>

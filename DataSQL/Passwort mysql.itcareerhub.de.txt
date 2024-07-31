@@ -1,0 +1,8 @@
+mysql.itcareerhub.de
+MYSQL_USER: ich1
+MYSQL_PASSWORD: ich1_password_ilovedbs
+
+password zum zweiten anschluss MySQL Workbench
+
+kluch vchoda v v sckolu> 
+ssh ec2-user@linux.itcareerhub.de 

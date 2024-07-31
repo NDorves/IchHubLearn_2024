@@ -1,0 +1,42 @@
+Linux:
+________ 
+ssh ec2-user@linux.itcareerhub.de  -->> Passwort zu ITHub
+
+
+
+scp ec2-user@linux.itcareerhub.de:/opt/310524-ptm/Dorves/.process_management.swo C:\Users\dorve\OneDrive\Desktop\IT-ICH\Linux
+.process_management.swo -->> команда для стягивания фаила себе на комп. нужно подставить свой адрес пересылки
+
+ scp ec2-user@linux.itcareerhub.de:/opt/310524-ptm/VAndreev/TestFile.pdf C:\Users\dorve\Documents\TestFil
+
+команды для ustanovki с гитхаба на мой компьютер
+git config --global -l
+git config --global user.name 
+git config --global user.email
+
+doskey history > /history.txt  --добавить историю с виндовса
+
+
+ python:
+_________
+pip install python-dateutil -- python ustanovka paketov
+.\.venf\Scripts\activate  --activation utility v Python
+
+
+os_version=$(cat /etc/os-release | grep PRETTY_NAME | cut -d '"' -f 2)
+current_date=`date+"%D"`
+current_time=`date +"%H:%M:%S"`
+uptime_info=`uptime -p`
+
+system_load=`uptime | awk -F '[\w]:' '{print $2}'`
+disk_usge=`df -h / | tail -n +2 | awk "{print $5}"`
+top_processes=`ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head -5`
+process_count=`ps -ef | tail -n +2 | wc -l`
+user_count=`who | wc -l`
+
+__________________________________________________________
+MONGO DB
+mongodb://ich1:password@mongo.itcareerhub.de:27017/?readPreference=primary&ssl=false&authMechanism=DEFAULT&authSource=ich --ssylka na podkluchenie
+
+lokal:
+docker run --name mongodb -d -p 27017:27017 mongo:latest

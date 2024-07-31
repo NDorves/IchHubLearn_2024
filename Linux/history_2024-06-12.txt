@@ -1,0 +1,89 @@
+   0 ls
+   1 ls -l
+   2 ls -la
+   3 ls -al /
+   4 ls --help
+   5 ls -l
+   6 ls -lh
+   7 ls-lh
+   8 ls -lah /
+   9 ls -lah /opt
+  10 ls -lah /usr/include/
+  11 ls -lah /opt/
+  12 cd /opt/
+  13 pwd
+  14 cd temu/
+  15 cd /usr/include/
+  16 ls -al
+  17 cd /opt/temu/
+  18 ls -al
+  19 cd
+  20 touch /var/log/File1.txt
+  21 ls -lha /var/log/
+  22 echo "Helo" > /var/log/File1.txt 
+  23 ls -lha /var/log/
+  24 date
+  25 touch /var/log/File1.txt
+  26 ls -lha /var/log/
+  27 pwd
+  28 mkdir Dir1
+  29 ls -al
+  30 mkdir /home/Dir1/Dir2/Dir3
+  31 mkdir -p /home/Dir1/Dir2/Dir3
+  32 ls -l /home/
+  33 ls -l /home/Dir1/
+  34 ls -l /home/Dir1/Dir2/
+  35 mkdir -p /home/Dir1/Dir2/Dir3/Dir4
+  36 touch /home/Dir1/Dir2/Dir3/Dir4/file.txt
+  37 ls -lh /home/Dir1/Dir2/Dir3/Dir4/
+  38 cp /home/Dir1/Dir2/Dir3/Dir4/file.txt /root/Dir1/file1.txt
+  39 ls Dir1/
+  40 cp /home/Dir1/Dir2/Dir3/Dir4/file.txt /root/Dir1/
+  41 ls Dir1/
+  42 mkdir /opt/dir
+  43 mv /root/Dir1/file1.txt /opt/dir/file2.txt
+  44 ls -al Dir1/
+  45 ls -al /opt/dir/
+  46 ls Dir1/
+  47 mv Dir1/file.txt Dir1/File.txt
+  48 ls -al Dir1/
+  49 ls -al
+  50 mv readme.txt Readme.txt
+  51 ls -al
+  52 touch /home/file1.txt /home/file2.txt /home/fule3.txt
+  53 ls -alh /home/
+  54 mkdir /tmp/dir1 /tmp/dir2 /tmp/dir3
+  55 ls -al /tmp/
+  56 mkdir /tmp/dir1/tmp/dir2/tmp/dir3
+  57 mkdir -p /tmp/dir1/tmp/dir2/tmp/dir3
+  58 ls -al
+  59 ls -al /tmp/
+  60 tree /tmp
+  61 tree /home/
+  62 tree /var
+  63 clear 
+  64 whoami 
+  65 w
+  66 history
+  67 history > history_2024-06-12.txt
+  68 ls -al
+  69 cat history_2024-06-12.txt 
+  70 ls -la 
+  71 ls -la  /home/
+  72 rm --help
+  73 rm /home/file1.txt 
+  74 ls -la  /home/
+  75 rm /home/file2.txt /home/file3.txt 
+  76 ls -la  /home/
+  77 rm /home/file3.txt 
+  78 ls -la  /home/
+  79 rm /home/fule3.txt  
+  80 tree /home/
+  81 rm -r /home/Dir1/
+  82 tree /home/
+  83 rm -f /tmp/dir
+  84 tree /tmp/
+  85 rm -f /tmp/dir1
+  86 rm -rf /tmp/dir1
+  87 tree /tmp/
+  88 history > history_2024-06-12.txt 

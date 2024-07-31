@@ -1,0 +1,28 @@
+1. touch ~/myfirstbashscript.sh
+2. chmod +x ~/myfirstbashscript.sh
+  USER="NELJA"
+3. echo "Date: $(date)"
+Date: Fri Jul  5 19:17:19 UTC 2024
+4. echo "Hello, $USER"
+Hello, NELJA
+5. echo "Work directory: $(pwd)"
+Work directory: /root
+6.  bioset_processes=$(ps -ef | grep bioset | grep -v grep | wc -l)
+
+7. echo "Number of processes named bioset:$bioset_processes"
+Number of processes named bioset:10
+8. file_premissions=$(ls -l /etc/passwd | awk '{print $1}')
+9. echo "touch /etc/passwd: $file_premissions"
+touch /etc/passwd: -rw-r--r--
+10. export_file ~/myfirstbashscript.sh
+
+export USER_NELJA >> ~/myfirstbashscript.sh
+
+
+#!/bin/bash
+USER=Nelja
+date
+echo "Hello, $USER"
+echo "Work directory: $(pwd)"
+ps -ef | grep bioset | grep -v grep | wc -l
+ls -l /etc/passwd | awk '{print $1}'

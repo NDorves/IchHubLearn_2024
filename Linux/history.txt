@@ -1,0 +1,93 @@
+   0 pwd
+   1 ls -la
+   2 ls -al
+   3 ls -h
+   4 -help
+   5 --h
+   6 ---h
+   7 ---help
+   8 clear
+   9 mkdir _p /home/user2/task2/
+  10 mkdir -p /home/user2/task2/
+  11 touch /home/user2/task2/file.txt
+  12 mkdir -p /Python/lection/Hausaufg/
+  13 touch /Python/lection/Hausaufg/HA1.txt
+  14 mkdir -p lection/Hausaufg/Skreen/
+  15 mkdir -p task2/task3
+  16 cp Skreen/dom
+  17 touch task2/task3/HFG.txt
+  18 pwd
+  19 ls -la
+  20 ls -al
+  21 whoami
+  22 cp task2/task3/HFG.txt /task3/task3/HFG.txt
+  23 cp task2/task3/HFG.txt /task3/task3/HF3G.txt
+  24 cp lection/Hausaufg/Skreen/ /lection1/Hausaufgabe1/Skreen1
+  25 cp /lection/Hausaufg/Skreen/ /lection1/Hausaufgabe1/Skreen1
+  26 ls /hom/
+  27 ls /Python/
+  28 ls /Python/lection/
+  29 ls /Python/lection/Skree
+  30 ls /Python/lection/Skreen/
+  31 cp /lection/Hausaufg/Skreen/ /lection1/Hausaufgabe1/Skreen1/
+  32 cp /lection1/Hausaufgabe1/Skreen1/ /lection2/Hausaufgabe2/Screen2/
+  33 mkdir -p /home/user/task/tasko/
+  34 ls /home/user/
+  35 ls /home/user/tasko/
+  36 ls /Dorves/
+  37 cd /dorves/
+  38 mkdir -p /dorves/pyt1/hfg/scr/
+  39 touch /dorves/pyt1/hfg/scr/hfg1.txt
+  40 ls /dorves/
+  41 ls /dorves/pyt1/
+  42 ls /dorves/pyt1/hfg/
+  43 ls /dorves/pyt1/hfg/scr/
+  44 ls /dorves/pyt1/hfg/scr/hfg1.txt
+  45 touch /dorves/pyt1/hfg/scr/hfg2.txt
+  46 ls /dorves/pyt1/hfg/scr/
+  47 ls-la
+  48 ls -la
+  49 ls -a
+  50 ls -r
+  51 ls -d
+  52 cp /dorves/pyt1/hfg/scr/hfg1.txt /dorves2/pyt2/hfg2/skr2/hfg2.txt
+  53 cp /dorves/pyt1/hfg/scr/hfg1.txt dorves2/pyt2/hfg2/skr2/hfg2.txt
+  54 clear
+  55 mkdir -p /home/user/task/
+  56 mkdir -p /home2/user2/task2/
+  57 mkdir -p /home3/user3/task3/
+  58 ls -a/
+  59 ls -1
+  60 ls -x
+  61 ls -d
+  62 ls -i
+  63 ls -I
+  64 pwd
+  65 cd /home/
+  66 touch /home3/user3/task3/file1.txt
+  67 ls -a/
+  68 ls -a /
+  69 cp /home3/user3/task3/file1.txt /tmp
+  70 cp /home3/user3/task3/file1.txt /dorves
+  71 cp /home3/user3/task3/file1.txt /Dorves
+  72 cp /home3/user3/task3/file1.txt /Dorves/newfile3.txt
+  73 cp /home3/user3/task3/file1.txt /tmp/newfile3.txt
+  74 cp -r /home3/user3 /tmp/mydirectory
+  75 ls -a /
+  76 ls /tmp/
+  77 mv /dorves/file1.txt /dorves/newfile1.txt
+  78 mv /dorves/file1.txt /Dorves/new_txt
+  79 mv /dorves/file1.txt /Dorves/new.txt
+  80 mv /dorves/file1.txt /Dorves
+  81 mv /dorves/file1.txt /Dorves/newf.txt
+  82 mv /dorves/file1.txt /dorves/newfl.txt
+  83 history
+  84 cd
+  85 ls -a /
+  86 ls /dorves/
+  87 ls /dorves/pyt1/
+  88 ls /pyt1/
+  89 ls /dorves/pyt1/
+  90 ls /dorves/pyt1/hfg/
+  91 ls /dorves/pyt1/hfg/scr/
+  92 history > /tmp/history.txt && export_file /tmp/history.txt

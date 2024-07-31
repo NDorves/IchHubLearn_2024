@@ -1,0 +1,55 @@
+   0 ls -al /home/
+   1 mkdir /home/animals/
+   2 cd /home/animals/
+   3 mkdir /dog/cat/fish/
+   4 cd /animals/
+   5 mkdir /home/animals/ /dog/fish/cat/
+   6 mkdir /dog /fish /cat/
+   7 pwd
+   8 cd /dog/
+   9 cd /home/animals/
+  10 mkdir /dog/pluto.txt/, /cat/garfield.txt/, /fish/nemo.txt/
+  11 ls -al /fish/
+  12 mkdir /dog/pluto.text/
+  13 mkdir /cat/garfield.txt/
+  14 ls -al /dog/
+  15 cd /tmp/
+  16 mkdir /adam.txt/
+  17 ls -al /home/
+  18 cd /home/
+  19 mkdir /home/humans/
+  20 cp /home/humans/adam.txt/
+  21 cd /tmp/adam/
+  22 cd /tmp/
+  23 ls -al/adams.txt/
+  24 cp /tmp/adam.txt/
+  25 touch /tmpadam
+  26 touch /tmp/adam
+  27 mkdir /home/humans
+  28 mkdir /home/humans/
+  29 cp /tmp/adam /home/humans/
+  30 touch /tmp/eVa/
+  31 touch /tmp/eVa
+  32 mv /eVa.txt /tmp/ /opt/eve/
+  33 mv /eVa /opt/eve/
+  34 mv /eVa.txt /opt/eve/
+  35 mv /eVa/opt/eve/
+  36 pwd
+  37 ls -al /eVa.txt/
+  38 touch /tmp/eVa
+  39 touch /tmp/eVa.txt
+  40 ls -al /eVa.txt/
+  41 ls -al /tmp/eVa
+  42 mv /tmp/eVa /opt/eve
+  43 mv /opt/eve /home/humans
+  44 ls humans |grep 'adam\|eve' 
+  45 ls humans | grep 'adam\|eve'
+  46 ls -al /humans/ | grep 'adam\|eve'
+  47 ls -al /humans/ | grep '\adam\|\eve\'
+  48 ls humans | grep 'adam\|eve'
+  49 ls -al /humans/
+  50 ls -al /home/
+  51 ls -al /humans/
+  52 ls -al /adam.txt/
+  53 ls /home/humans | grep 'adam\|eve'
+  54 history > /tmp/history.txt && export_file /tmp/history.txt

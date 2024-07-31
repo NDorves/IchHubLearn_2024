@@ -1,0 +1,16 @@
+
+ 1007  nano /tmp/file.txt
+ 1008  df -h | head -n 3 >> /tmp/file.txt
+ 1009  chmod 760 /tmp/file.txt
+ 1010  nano ~/myfirstbashscript.sh
+ 1011  #!/bin/bash
+ 1012  export USER="ваше_имя"
+ 1013  echo "Скрипт запущен из директории $(pwd)"
+ 1014  chmod +x ~/myfirstbashscript.sh
+ 1015  cat ~/myfirstbashscript.sh >> /tmp/file.txt
+ 1016  history >> /tmp/file.txt
+Filesystem      Size  Used Avail Use% Mounted on
+devtmpfs        468M     0  468M   0% /dev
+tmpfs           477M     0  477M   0% /dev/shm
+USER_N='Nelja'
+echo "This script is running from $PWD"

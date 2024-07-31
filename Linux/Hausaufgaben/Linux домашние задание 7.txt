@@ -1,0 +1,15 @@
+/root
+pwd USER_NELJA
+   0 vi /tmp/file.txt
+   1 df -h | head -n 3 > /tmp/file.txt
+   2 chmod g+wx /tmp/file.txt
+   3 chmod o-rwx /tmp/file.txt
+   4 touch myfirstbashscript.sh
+   5 exsport USER=NELJA
+   6 export USER=NELJA
+   7 echo $USER$var
+   8 pwd USER_NELJA
+   9 pwd USER_NELJA >> myfirstbashscript.sh
+  10 echo pwd USER_NELJA >> myfirstbashscript.sh
+  11 cp myfirstbashscript.sh /tmp/file.txt
+  12 history >> /tmp/file.txt

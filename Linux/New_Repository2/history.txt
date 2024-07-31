@@ -1,0 +1,133 @@
+    1  Date: Fri Jul  5 20:11:27 UTC 2024
+    2  Date: Fri Jul  5 20:11:27 UTC 2024
+    3  Date: Fri Jul  5 20:11:27 UTC 2024
+    4  #!/bin/bash
+    5  USER=Nelja
+    6  date
+    7  echo "Hello, $USER"
+    8  echo "Work directory: $(pwd)"
+    9  ps -ef | grep bioset | grep -v grep | wc -l
+   10  ls -l /etc/passwd | awk '{print $1}'
+   11  ls -al
+   12  cd ..
+   13  ls -al
+   14  cd Test-Repository
+   15  clone git@github.com:NDorves/git_intro.git
+   16  ls -al
+   17  cd ..
+   18  ls -al
+   19  clone git@github.com:NDorves/git_intro.git
+   20  cd ~Test-Repository 
+   21  cd Test-Repository 
+   22  ls -al
+   23  cat Test-Repository 
+   24  cat /Test-Repository 
+   25  cd ..
+   26  cat ~/git_intro
+   27  ls -al /
+   28  clone git@github.com:NDorves/git_intro.git
+   29  clone git@github.com:NDorves/git_intro.git
+   30   git clone git@github.com:NDorves/Test-Repository.git
+   31   git clone git@github.com:NDorves/git_intro.git
+   32  ls -al
+   33  cat < git_intro.git
+   34  cat < git_intro
+   35  #!bin/bash
+   36  #
+   37  backupdir=("/opt" "/home/ec2-user")
+   38  #
+   39  backuplocation="/backup"
+   40  mkdir -p "$backuplocation"
+   41  for dir in "${backupdir[@]}"; do backupfile="$bacuplocation/$(baename $dir")_backup_$(date +Y-%m-%d).tar.gz"
+   42  tar -czf "$backupfile" "$dir"
+   43  mkdir TEST-Git
+   44  ls -al
+   45  cd TEST-Git
+   46  ls -al
+   47  git innit
+   48  git init
+   49  ls -al
+   50  git status
+   51  git add .
+   52  git status
+   53  git commit -m "Innital commit"
+   54  touch trulja.txt
+   55  git status
+   56  git add .
+   57  git status
+   58  git commit -m "Innital commit"
+   59  pwd
+   60  git clone https://github.com/NDorves/New_Repository.git
+   61  git clone [200~
+   62  git clone git@github.com:NDorves/New_Repository.git
+   63  cd /New_Repository.git
+   64  cd git@github.com:NDorves/New_Repository.git
+   65  cd New_Repository.git
+   66  cat New_Repository.git
+   67  cd New_Repository.git
+   68  git clone git@github.com:NDorves/New_Repository.git [200~C:\Users\dorve\OneDrive\Desktop\IT-ICH\Linux~
+   69  git clone git@github.com:NDorves/New_Repository.git C:\Users\dorve\OneDrive\Desktop\IT-ICH\Linux~
+   70  cd New_Repository.git
+   71  cd /New_Repository.git
+   72  git clone git@github.com:NDorves/learning_git.git
+   73  ls -al
+   74  cd learning_git/
+   75  ls -al
+   76  mkdir 310524-ptm
+   77  ls -al
+   78  cd 310524-ptm
+   79  touch NDORVES.txt
+   80  ls -al
+   81  git status
+   82  git add .
+   83  git status
+   84  git commit -m "add now file NDORVES.txt"
+   85  git status
+   86  git push 
+   87  git clone git@github.com:NDorves/Fork-310524-ptm.git
+   88  ls -al
+   89  cd 
+   90  cd cd
+   91  cd 
+   92   
+   93  cdOneDrive/Desktop/IT-ICH/Linux
+   94  cd OneDrive/Desktop/IT-ICH/Linux
+   95  cd Fork-310524-ptm/
+   96  git branch -v
+   97  nano song.txt
+   98  git status
+   99  history
+  100  git status
+  101  git add .
+  102  git status
+  103  git commit
+  104  git push .
+  105  git push 
+  106  cd ..
+  107  dir
+  108  git clone git@github.com:NDorves/New_Repository2.git 
+  109  git branch feature
+  110  cd New_Repository2
+  111  git status
+  112  git branch feature
+  113  git status
+  114  git branch -v
+  115  git checkout feature
+  116  nano README.md
+  117  nano .gitignore
+  118  git staatus
+  119  git status
+  120  nano .gitignore
+  121  git status
+  122  git commit
+  123  git add .
+  124  git status
+  125  git commit
+  126  git status
+  127  git push
+  128  git push --set-upstream origin feature
+  129  git commit --amend
+  130  git branch main
+  131  git checkout main
+  132  git merge feature
+  133  history > history.txt
